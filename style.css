@@ -1,0 +1,55 @@
+/* ========= */
+/* Reuseable */
+/* ========= */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(47, 47, 47);
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(47, 47, 47);
+}
+
+
+/* ========= */
+/* Home Page */
+/* ========= */
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.side h2{
+    color: rgb(47, 47, 47);
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.nav{
+    margin-top: 25px;
+}
+.nav ul li a{
+    text-decoration: none;
+    list-style-type: none;
+}
+.main{
+    background: rgb(235, 235, 235);
+    height: 100%;
+    width: 100%;
+}
+.profileImage{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+}
