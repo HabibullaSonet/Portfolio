@@ -82,9 +82,14 @@ p{
     background: rgb(246, 246, 246);
     height: 100%;
     width: 100%;
+}
+
+.container2{
+    width: 70%;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    margin: auto;
     align-items: center;
 }
 
@@ -92,7 +97,6 @@ p{
     width: 300px;
     height: 300px;
     position: relative;
-    left: 10%;
 }
 
 .profileImage img{
@@ -105,7 +109,7 @@ p{
 
 .profile-right{
     position: relative;
-    left: -10%;
+    left: -65px;
 }
 
 .profile-right h1{
@@ -127,10 +131,10 @@ p{
     font-size: 20px;
 }
 
-
 /* ========== */
 /* About Page */
 /* ========== */
+
 .about-right{
     height: 100%;
     width: 100%;
@@ -138,7 +142,7 @@ p{
 }
 
 .cover-image{
-    width: 75%;
+    width: 70%;
     height: 500px;
     margin: 100px auto 50px auto;
 }
@@ -149,7 +153,7 @@ p{
 }
 
 .about-details{
-    width: 75%;
+    width: 70%;
     display: grid;
     grid-template-columns: auto 250px 250px;
     grid-gap: 20px;
@@ -173,4 +177,67 @@ p{
     margin-top: 50px;
     position: relative;
     left: -10%;
+}
+
+
+/* ============== */
+/* Portfolio Page */
+/* ============== */
+
+.portfolio-container{
+    width: 70%;
+    margin: auto;
+}
+
+.portfolio-container p{
+    display: inline-block;
+    background: rgb(230, 230, 230);
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: rgb(47, 47, 47);
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.head-menu h2{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.head-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul{
+    margin-top: 20px;
+}
+
+.right-side .menu ul li{
+    display: inline-block;
+}
+.right-side .menu ul li a{
+    text-decoration: none;
+    color: rgba(47, 47, 47, 0.700);
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.images{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 70px;
+}
+
+.image-container{
+    height: 250px;
+    width: 100%;
+}
+.image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
