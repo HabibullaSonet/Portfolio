@@ -1,5 +1,5 @@
 # Portfolio
-M4 pages Personal portfolio website design.
+My 4-page Personal portfolio website design.
 Preview 🔽
 
 ![Personal Portfolio](https://user-images.githubusercontent.com/82251942/132082970-3f808f5f-a390-46df-a3d3-a5ff67a57ed5.jpg)
